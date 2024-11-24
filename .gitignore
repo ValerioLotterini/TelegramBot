@@ -1,0 +1,21 @@
+# Ambiente virtuale
+venv/
+
+# File di configurazione
+*.pyc
+__pycache__/
+
+# File del database
+db.sqlite3
+
+# File e directory specifiche di Django
+/static/
+*.log
+
+# File di sistema
+.DS_Store
+*.swp
+*.swo
+.idea/
+.vscode/
+.env
