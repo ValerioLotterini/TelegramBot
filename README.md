@@ -18,17 +18,17 @@ Questo progetto fornisce endpoint api per la registrazione, l'autenticazione e l
    cd TelegramBot
 2. **Crea un ambiente virtuale:**
    ```bash
-    python3 -m venv venv
-    source venv/bin/activate   # Su Windows usa: venv\Scripts\activate
+   python3 -m venv venv
+   source venv/bin/activate   # Su Windows usa: venv\Scripts\activate
 3. **Installa le dipendenze:**
    ```bash
-    pip install -r requirements.txt
+   pip install -r requirements.txt
 4. **Applica le migrazioni:**
    ```bash
-    python3 manage.py migrate
+   python3 manage.py migrate
 5. **Configura file .env:**
    ```bash
-    cp .env.example .env # Su Windows usa: copy .env.example .env
+   cp .env.example .env # Su Windows usa: copy .env.example .env
 6. **Avvia il server di sviluppo:**
    ```bash
-    python3 manage.py runserver 
+   python3 manage.py runserver 
