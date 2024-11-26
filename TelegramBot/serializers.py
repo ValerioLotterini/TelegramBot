@@ -34,3 +34,13 @@ class SignupSerializer(serializers.Serializer):
                 "password": ["The two password fields didn’t match."]
             })
         return data
+
+
+class SendMessageSerializer(serializers.Serializer):
+    text = serializers.CharField(required=False, allow_blank=True)
+    image = serializers.ImageField(required=False)
+
+    def validate(self, data):
+        if not data.get('text') and not data.get('image'):
+            raise serializers.ValidationError("You must provide either a text or an image.")
+        return data
