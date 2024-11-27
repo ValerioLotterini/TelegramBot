@@ -2,7 +2,7 @@
 
 
 Questo progetto fornisce endpoint api per la registrazione, l'autenticazione e l'invio di un messaggio testo/immagine tramite telegram.
-[Collezione Postman - API User Registration](https://www.postman.com/science-observer-42026254/telegrambot/collection/6w42u30/telegram-bot)
+[Collezione Postman](https://www.postman.com/science-observer-42026254/telegrambot/collection/6w42u30/telegram-bot)
 
 ## Tecnologie utilizzate
 
